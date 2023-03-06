@@ -15,6 +15,8 @@ public class Movie {
         this.genres = genres;
     }
 
+    public Movie(){};
+
     public List<Movie> initializeMovies(){
         List<Movie> movieList = new ArrayList<>();
         List<Genre> test1 = new ArrayList<Genre>(Arrays.asList(Genre.ACTION));
